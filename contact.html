@@ -7,37 +7,56 @@
  </head>
   
  <body>
-    <header>
-        <h1>Diana Carrara</h1>
-           
-        <nav>
-            <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-              
-        
-    </header>
+    <div class="page-wrap">
 
-    <div class="contact-title">
-         <h3>Contact</h3>
+        <header>
+            <div class="header-wrap">
+                <h1>Diana Carrara</h1>
+           
+                <nav>
+                    <a href="#">About</a>
+                    <a href="#">Portfolio</a>
+                    <a href="#">Contact</a>
+                                 
+                </nav>
+            </div>        
         
-     </div>
+        </header>
+
+       <div class="container">
+
+            <div class="contact-title">
+                <h3>Contact</h3>
+        
+            </div>
     
-    <div class="contact-form">
-        <form id="contact-form" method="POST" action="">
-            <input name="name" type="text" class="form-control" placeholder="Name" required>
-            <br>
-            <input name="email" type="email" class="form-control" placeholder="Email" required>
-            <br>
-            <textarea name="message" class="form-control" placeholder="Message" required></textarea>
-            <br>
-            <input type="submit" class="form-control submit" value="SUBMIT">
-        </form>
+            <form id="contact-form">
+                <ul>
+                    <li>
+                        <label for="name">Name</label>
+                        <input id="name" type="text" name="name" required="required">
+                    </li>
+                  
+                    <li>
+                        <label for="email">Email</label>
+                        <input id="email" type="text" name="email" required="required">
+                    </li>
+
+                    <li>
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" required="required"></textarea>
+                    </li>
+                </ul>
+                
+                <input type="Submit" name="Submit" value="submit" id="submit">                    
+            
+            </form>
+
+        </div>
 
     </div>
+
+        <footer>footer</footer>
 
 
  </body>
