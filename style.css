@@ -108,7 +108,7 @@ footer{
     clear: both;
     overflow: auto;
     background: #666666;
-    border-top: 4px solid #4aaaa5;
+    border-top: 8px solid #4aaaa5;
     text-align: center;
     padding: 10px;
     position: fixed;
@@ -176,4 +176,8 @@ textarea {
     color: white;
     border: 0 none;
     padding: 10px 30px;
+}
+
+#submit:hover {
+     background-color: pink
 }
